@@ -54,9 +54,10 @@ function ctuDefuseTheBomb(sequense) {
 
     var nextInOrder = void 0;
     var current = void 0;
-    var goodToGo = false;
 
     for (var i = 0; i < sequense.length; i++) {
+
+        var goodToGo = false;
 
         if (sequense[i + 1] !== undefined) {
             nextInOrder = sequense[i + 1];
